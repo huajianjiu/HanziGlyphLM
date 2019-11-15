@@ -26,6 +26,8 @@ Replicating Dai 2017's language model and try to improve it using tricks in Meng
 }
 ```
 
+## Objective
+
 Dai et al. (2017) tried to combine CNN-encoded glyph images of characters and character embeddings as the input of a RNNLM. However, they reported that the CNN is ignored by the trained model, leading to no improvement.
 
 Meng et al. (2019) combined a similar CNN and BERT and proposed some important tricks to train the model, including:
